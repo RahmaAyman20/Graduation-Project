@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+    .sidebar {
+        height: fit-content;
+    }
+
+    .content {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sidebar p {
+        font-size: 14px;
+    }
+}

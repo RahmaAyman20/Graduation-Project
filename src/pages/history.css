@@ -1,0 +1,41 @@
+.product {
+    background-color: white;
+    border: solid #ddd 1px;
+    border-radius: 5px;
+}
+
+.date {
+    color: #616161;
+    padding: 20px;
+    margin: 20px 50px;
+    font-size: 15px;
+    border-bottom: solid #ddd 1px;
+}
+
+.img {
+    width: 139px;
+    height: 100px;
+    margin: 10px 20px 30px;
+    border-radius: 5px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.hist_p {
+    color: #616161;
+    font-weight: bold;
+}
+
+.rate {
+    color: #616161;
+    margin: 0px 10px;
+    font-weight: bold
+}
+
+.reviews {
+    color: #616161;
+    font-weight: bold;
+}

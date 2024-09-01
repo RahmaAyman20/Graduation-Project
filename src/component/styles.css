@@ -1,0 +1,11 @@
+.custom-btn {
+    background-color: #007bff !important; /* Bootstrap primary color */
+    color: #fff !important; /* White text color */
+    border: none; /* Remove border if needed */
+  }
+  
+  .custom-btn:hover {
+    background-color: #0056b3 !important; /* Darker primary color for hover state */
+    color: #fff !important; /* White text color */
+  }
+  

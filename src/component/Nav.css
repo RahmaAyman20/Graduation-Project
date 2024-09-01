@@ -1,0 +1,44 @@
+.nav-container1 {
+  background-color: #ffffff;
+  border-bottom: 1px solid rgb(205, 199, 199);
+}
+
+.nav-container1 ul {
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  margin-left: 100px;
+  margin-bottom: 0px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+.nav-container1 ul li:hover,
+.nav-link:hover,
+.nav-link.active
+{
+  color: blue;
+  border-bottom: 1px solid blue;
+}
+
+/* .nav-container1 ul li:hover,
+.nav-container1 ul li.active 
+{
+  color: blue;
+  border-bottom: 1px solid blue;
+} */
+.nav-link li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .nav-link li {
+    display: block;
+    padding: 10px 10px;
+    border-bottom: 1px solid #ccc; /* Add border between links */
+  }
+}
